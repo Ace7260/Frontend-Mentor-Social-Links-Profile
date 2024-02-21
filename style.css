@@ -1,0 +1,135 @@
+@font-face {
+    font-family: interVariable;
+    src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+@font-face {
+    font-family: inter-bold;
+    src: url("./assets/fonts/static/Inter-Bold.ttf");
+}
+
+@font-face {
+    font-family: inter-semi-bold;
+    src: url("./assets/fonts/static/Inter-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: inter-regular;
+    src: url("./assets/fonts/static/Inter-Regular.ttf");
+}
+
+:root {
+    --black: hsl(0, 0%, 8%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --grey: hsl(0, 0%, 20%);
+    --white: hsl(0, 0%, 100%);
+    --green: hsl(75, 94%, 57%);
+    --font-size: 14px
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: interVariable;
+    text-decoration: none;
+    list-style: none;
+    color: var(--white);
+}
+
+body {
+    background-color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-size: 14px;
+}
+
+main {
+    width: 400px;
+    padding: 30px;
+    height: auto;
+    background-color: var(--dark-grey);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.7rem;
+    border-radius: 5px;
+
+}
+
+.name {
+    font-family: inter-semi-bold;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: -17px;
+}
+
+main img {
+    border-radius: 50%;
+    width: 30%;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+.social-links li {
+    background-color: var(--grey);
+    border-radius: 5px;
+    text-align: center;
+    /* padding: 15px; */
+    cursor: pointer;
+
+}
+
+.social-links li a {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    height: fit-content;
+    font-weight: 400;
+
+
+
+}
+
+.social-links li:hover,
+.social-links li a:hover {
+    color: var(--black);
+    background-color: var(--green);
+    border-radius: 5px;
+    transition: ease-out .4s;
+
+}
+
+
+
+.location {
+    color: var(--green)
+}
+
+.attribution {
+    position: absolute;
+    bottom: 5%;
+}
+
+.attribution a {
+    color: crimson;
+}
+
+@media screen and (max-width: 375px) {
+    main {
+        width: 350px;
+    }
+
+    .attribution {
+        font-size: 10px;
+        bottom: 2px;
+    }
+}
