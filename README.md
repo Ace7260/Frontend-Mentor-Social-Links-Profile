@@ -11,22 +11,18 @@ Users should be able to:
 
 ### Screenshot
 
-![Blog preview card](/design/desktop-design.jpg)
+![SOCIAL LINKS PROFILES](/design/desktop-design.jpg)
 
 ### Links
 
 - Solution URL: [On github](https://github.com/Ace7260/social-links-profile)
-- Live Site URL: [Live]()
+- Live Site URL: [Live](https://social-links-profile-roan-tau.vercel.app/)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-### Useful resources
-
-- HTML
-- CSS 
 
 ## Author
 
